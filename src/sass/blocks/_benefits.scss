@@ -1,13 +1,7 @@
 .benefits {
     min-height: 470px;
     padding: 70px 0 65px 0;
-    background: url(../../img/benefitsdg.jpg) center (center/cover) no-repeat;
-    &__title {
-        font-size: 30px;
-        font-weight: 700;
-        color: #0d0d0d;
-        text-align: center;
-    }
+    background: url(../img/benefitsdg.jpg) center (center/cover) no-repeat;
     &__wrapper {
         display: flex;
         justify-content: space-between;
