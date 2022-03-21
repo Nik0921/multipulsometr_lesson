@@ -46,15 +46,25 @@
     }
 }
 
-@media ( max-width: 830px ) {
+@media ( max-width: 835px ) {
     .benefits {
         &__icons {
             width: 220px;
         }
     }
+    .consultation {
+        &__descr {
+            font-size: 19px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 31px;
+        }
+    }
 }
 
-@media ( max-width: 780px ) {
+@media ( max-width: 783px ) {
     .promo {
         padding-bottom: 20px;
         &__header {
@@ -98,11 +108,26 @@
             width: 198px;
         }
     }
+    .consultation {
+        &__descr {
+            font-size: 17px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 28px;
+        }
+    }
+    .button {
+        &_submit {
+            width: 300px;
+            height: 55px;
+        }
+    }
 }
 
 @media ( max-width: 685px ) {
     .benefits {
-        
         &__wrapper {
             flex-direction: column;
             align-items: center;
@@ -116,12 +141,21 @@
             span {
                 font-size: 18px;
             }
-            
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 24px;
         }
     }
 }
 
-@media ( max-width: 570px ) {
+@media ( max-width: 576px ) {
     .promo {
         &__header {
             font-size: 30px;
