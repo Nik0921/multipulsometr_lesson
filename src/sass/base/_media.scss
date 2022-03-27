@@ -124,6 +124,29 @@
             height: 55px;
         }
     }
+    .feedback {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+    // .carousel {
+    //     &__inner {
+    //         img {
+    //             width: 500px;
+    //     }
+    //     button {
+    //         img {
+    //             width: 30px;
+    //             height: 50px;
+    //         }
+    //     }
+    //     }
+    //     .slick-track {
+    //         width: 90%;
+    //     }
+    // }
+    
 }
 
 @media ( max-width: 685px ) {
