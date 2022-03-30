@@ -8,4 +8,13 @@
         color: #ffffff;
         margin-top: 77px;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }

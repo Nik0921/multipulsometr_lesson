@@ -4,11 +4,12 @@
             width: 240px;
         }
     }
+    
 }
 @media ( max-width: 1024px ) {
     .container {
         width: 100%;
-        padding: 21px 30px 93px 30px;
+        padding: 21px 30px 24px 30px;
     }
     .promo {
         &__header {
@@ -44,6 +45,43 @@
     font-size: 27px;
     }
     }
+    .carousel {
+        &__inner {
+            width: 500px;
+        }
+        img {
+            width: 100%;
+            
+        }
+        .slick-list {
+            min-height: 400px;
+        }
+    }
+    button {
+        img {
+            width: 24px;
+            height: 38px;
+        }
+    }
+    
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+}
+
+
+@media ( max-width: 990px ) {
+    .feedback {
+        &__descr {
+            width: 530px;
+        }
+    }
+    .carousel {
+        min-height: 250px;
+    }
+    
 }
 
 @media ( max-width: 835px ) {
@@ -62,6 +100,12 @@
             font-size: 31px;
         }
     }
+    .feedback {
+        &__descr {
+            width: 450px;
+        }
+    }
+    
 }
 
 @media ( max-width: 783px ) {
@@ -130,26 +174,25 @@
             height: 150px;
         }
     }
-    // .carousel {
-    //     &__inner {
-    //         img {
-    //             width: 500px;
-    //     }
-    //     button {
-    //         img {
-    //             width: 30px;
-    //             height: 50px;
-    //         }
-    //     }
-    //     }
-    //     .slick-track {
-    //         width: 90%;
-    //     }
-    // }
-    
+    .footer {
+        &__info {
+            width: 420px;
+            height: 240px;
+        }
+        &__addr {
+            font-size: 17px;
+            margin-bottom: 25px;
+
+        }
+        &__phone {
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+    }
+       
 }
 
-@media ( max-width: 685px ) {
+@media ( max-width: 700px ) {
     .benefits {
         &__wrapper {
             flex-direction: column;
@@ -176,6 +219,34 @@
             font-size: 24px;
         }
     }
+    .feedback {
+        &__descr {
+            width: 400px;
+            font-size: 14px;
+        }
+        &__item {
+            img {
+                width: 140px;
+                height: 140px;
+                margin-right: 45px;
+            }
+        }
+    }
+}
+
+@media ( max-width: 660px ) {
+    .feedback {
+        &__descr {
+            width: 300px;
+            font-size: 12px;
+        }
+        &__item {
+            img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+}
 }
 
 @media ( max-width: 576px ) {
