@@ -46,8 +46,10 @@
     }
     }
     .carousel {
+        min-height: 500px;
         &__inner {
             width: 500px;
+            
         }
         img {
             width: 100%;
