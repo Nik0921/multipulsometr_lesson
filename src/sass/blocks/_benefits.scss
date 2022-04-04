@@ -34,5 +34,29 @@
         line-height: 1.2;
         font-weight: 400;
         }
+        
+    }
+    &__icon {
+        &_animate {
+            animation-name: heartbeat;
+            animation-duration: 1.7s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        &_shoe {
+            animation-name: shoe;
+            animation-duration: 1.7s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+        &_cube {
+            animation-name: cube;
+            animation-duration: 1.7s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
     }
 }

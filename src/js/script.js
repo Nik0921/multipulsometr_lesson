@@ -162,6 +162,7 @@ function toggleSlide(item) {
 
 };
 });
+  new WOW().init();
 });
 
 //  const slider = tns({
