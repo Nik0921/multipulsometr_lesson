@@ -142,15 +142,19 @@
                 color: #555555;
                 margin-bottom: 20px;
                 text-align: start;
+                list-style-type: none;
                 &:before {
                     content: '';
                     position: absolute;
                     width: 5px;
                     height: 5px;
                     background-color: $main-color;
-                    left: -14px;
-                    top: 5px;
+                    left: -12px;
+                    top: 6px;
                 }
+            }
+            ul {
+                padding-left: 0;
             }
         }
         &__back {
